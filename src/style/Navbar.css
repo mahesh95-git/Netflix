@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+
+ font-family: 'Roboto', sans-serif;
+ font-weight: 600;
+}
+.user {
+  margin-right: 10px;
+}
+.user img {
+  width: 30px;
+  border-radius: 5px;
+}
+
+.logo {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo img {
+  width: 100px;
+}
+.alloptions {
+  display: flex;
+  align-items: center;
+  width: 60%;
+  height: 45px;
+}
+.alloptions ul {
+  display: flex;
+  font-size: large;
+}
+.alloptions li {
+  margin-left: 50px;
+}
+.alloptions ul li a {
+  font-size: 15px;
+  color: rgb(250, 250, 250);
+  /* font-weight: 80; */
+}
+.icon svg {
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 50px;
+}
+.menu {
+  color: white;
+  display: none;
+
+  padding-left: 10px;
+}
+.menuoptions {
+  
+ font-family: 'Roboto', sans-serif;
+ font-weight: 600;
+  display: none;
+}
+.menuoptions-1 {
+  font-size: large;
+  display: block;
+}
+.menuoptions-1 ul {
+  display: flex;
+  flex-direction: column;
+}
+.menuoptions-1 ul li {
+  margin-top: 5vh;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.menuoptions-1 ul li svg {
+  width: 25px;
+  height: 25px;
+}
+
+.menuoptions-1 a {
+  color: white;
+}
+.menu-1 {
+  top: 0px;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: rgb(23, 24, 35);
+  width: 100vw;
+  height: 100vh;
+  padding-left: 10px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.otheroptions {
+  width: 15%;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
+.menu-name {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+}
+.menuicon svg {
+  width: 25px;
+  height: 25px;
+}
+.menulable {
+  font-size: large;
+}
+@media (max-width: 544px) {
+  .logo {
+    width: 15%;
+  }
+}
+@media (max-width: 507px) {
+  .alloptions {
+    display: none;
+  }
+  .menu {
+    font-family: "Roboto", sans-serif;
+    display: block;
+  }
+  .logo {
+    width: 30%;
+  }
+  .otheroptions {
+    width: 30%;
+  }
+}

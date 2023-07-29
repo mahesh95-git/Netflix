@@ -1,0 +1,21 @@
+.inner-container{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color:white;
+    align-items: center;
+}
+.desc{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.desc span svg{
+    width: 30px;
+    height: 30px;
+    color:red;
+}

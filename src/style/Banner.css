@@ -1,0 +1,162 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Caprasimo&display=swap");
+.background {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  justify-content: center;
+  background-color: black;
+  background-image: linear-gradient(to bottom, rgba(8, 8, 8, 0), rgb(0, 0, 0));
+  background-size: cover;
+  background-position: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  background-repeat: no-repeat;
+}
+.info {
+
+  padding-left: 50px;
+  height: 90vh;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 500;
+  color: rgb(143, 143, 143);
+  background-image: linear-gradient(
+    to left,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.288),
+    rgba(0, 0, 0, 0.658),
+    rgba(0, 0, 0, 0.879)
+  );
+}
+
+.name {
+  color: white;
+  font-size: 5vw;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+}
+.description {
+  font-size: 14px;
+}
+
+.button {
+  display: flex;
+}
+.list {
+  background-color: rgba(49, 48, 48, 0.319);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 40px;
+  color: white;
+  margin: 15px 15px 0px 0px;
+  font-size: 15px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+}
+.play {
+  background-color: rgba(49, 48, 48, 0.319);
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 40px;
+  margin: 15px 15px 0px 0px;
+  font-size: 15px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+}
+.play svg {
+  width: 20px;
+  height: 20px;
+  color: white;
+}
+.list svg {
+  width: 20px;
+  height: 20px;
+  color: white;
+}
+.back {
+  position: absolute;
+  left: 10px;
+}
+
+.back button svg {
+  color: rgb(244, 239, 239);
+}
+.back button {
+  border-radius: 5px;
+  height: 90px;
+  width: 20px;
+  background-color: rgba(53, 53, 54, 0.534);
+  outline: none;
+  border: black solid 0.5px;
+}
+.go {
+  position: absolute;
+  right: 10px;
+}
+.go button svg {
+  color: rgb(244, 239, 239);
+}
+.go button {
+  border-radius: 5px;
+  height: 90px;
+  width: 20px;
+  background-color: rgba(53, 53, 54, 0.534);
+  outline: none;
+  border: black solid 0.5px;
+}
+button:hover {
+  background-color: rgb(255, 255, 255);
+
+  color: rgb(0, 0, 0);
+}
+button:hover svg {
+  color: black;
+}
+.add {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media (max-width:550px) {
+  .background{
+    height: 60vh;
+  }
+  
+  
+}
+@media (max-width: 837px) {
+  .name {
+    font-size: 20px;
+  }
+  .info {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    padding-top: 10rem;
+  }
+  .description {
+    font-size: 10px;
+  }
+  .play {
+    width: 140px;
+  }
+}
